@@ -1,0 +1,118 @@
+// Specific CSS for your home-page
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Dancing+Script&family=Lobster&family=Noto+Sans:wght@100&display=swap');
+
+body {
+
+  background-color: white;
+}
+
+
+li a {
+
+  font-family: "Cabin", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: rgb(34, 34, 34);
+  text-decoration: none;
+}
+
+
+.w-100 {
+  max-height: 500px;
+}
+
+.header {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 3% 30px 2%;
+}
+
+.logo {
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  position: relative;
+
+}
+
+.logoword {
+  width: 150px;
+  height: 25px;
+  object-fit: fill;
+  position: absolute;
+  left: 11%;
+
+
+}
+
+.nav__links {
+
+  list-style: none;
+}
+
+.nav__links li {
+
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+
+  color: rgb(127, 127, 127);
+}
+
+
+.container2  {
+  margin: 15px 30px;
+  width: auto;
+  height: 1200px;
+  background-color: rgb(185, 185, 185);
+}
+
+main {
+  padding-top: 30px;
+}
+
+.search {
+
+  color: black;
+}
+
+
+.card {
+  height: 200px;
+  width: 600px;
+  position: relative;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-end;
+  text-decoration: none;
+  border: 1px solid #000000;
+  margin-bottom: 20px;
+  background-color: white;
+  background-size: cover;
+  border-radius: 5px;
+
+}
+
+
+.subtitle {
+  color: #3a3a3a;
+  text-align: center;
+}
+
+.card2 {
+  background-color: white;
+}
+
+.card3 {
+  background-color: white;
+}

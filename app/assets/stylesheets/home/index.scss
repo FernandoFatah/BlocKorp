@@ -4,6 +4,7 @@
 body {
 
   background-color: white;
+  position: relative;
 }
 
 
@@ -35,6 +36,8 @@ li a {
   height: 100px;
   position: relative;
 
+
+
 }
 
 .logoword {
@@ -43,7 +46,7 @@ li a {
   object-fit: fill;
   position: absolute;
   left: 11%;
-
+  top: 70px;
 
 }
 
@@ -73,7 +76,7 @@ li a {
   margin: 15px 30px;
   width: auto;
   height: 1200px;
-  background-color: rgb(185, 185, 185);
+  background-color: rgb(221, 221, 221);
 }
 
 main {
@@ -98,7 +101,6 @@ main {
   border: 1px solid #000000;
   margin-bottom: 20px;
   background-color: white;
-  background-size: cover;
   border-radius: 5px;
 
 }
@@ -115,4 +117,22 @@ main {
 
 .card3 {
   background-color: white;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: -50px;
+  width: 100%;
+}
+
+.icons a {
+  font-size: 25px;
+  color: gray;
+  margin: 0px 10px 10px 10px;
+}
+
+#footer p {
+  margin-top: 6px;
 }

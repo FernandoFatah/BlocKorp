@@ -5,6 +5,7 @@ body {
 
   background-color: white;
   position: relative;
+  width: 100%;
 }
 
 
@@ -76,7 +77,7 @@ li a {
   margin: 15px 30px;
   width: auto;
   height: 1200px;
-  background-color: rgb(221, 221, 221);
+  background-color: rgb(239, 237, 237);
 }
 
 main {
@@ -125,14 +126,19 @@ main {
   position: absolute;
   bottom: -50px;
   width: 100%;
+
 }
+
+
 
 .icons a {
   font-size: 25px;
   color: gray;
   margin: 0px 10px 10px 10px;
+
 }
 
 #footer p {
   margin-top: 6px;
+  padding-right: 5%;
 }

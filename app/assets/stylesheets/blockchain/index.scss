@@ -1,3 +1,76 @@
 // Place all the styles related to the blockchain controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+.blockchain1 {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  height: 500px;
+  background-color: rgb(212, 209, 209);
+}
+
+.blockchain2 {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 500px;
+  background-color: gray;
+}
+
+.blockchain3 {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  height: 500px;
+  background-color: rgb(212, 209, 209);
+}
+
+.blockchain4 {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.videoblock4 {
+  width: 50%;
+  height: 500px;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.blockchain5 {
+  width: 100%;
+  height: 300px;
+  background-color: cornflowerblue;
+}
+
+.imgblock {
+  margin: 25px 0px 25px 25px;
+  height: 450px;
+  width: 450px;
+  background-color: white;
+}
+
+.imgblock2 {
+  margin: 25px 25px 25px 0px;
+  height: 450px;
+  width: 450px;
+  background-color: white;
+}
+
+.textblock {
+  margin: 25px 5px 25px 25px;
+  width: 915px;
+  height: 450px;
+  background-color: beige;
+}
+
+.textblock2 {
+  margin: 25px 25px 25px 5px;
+  width: 915px;
+  height: 450px;
+  background-color: beige;
+}

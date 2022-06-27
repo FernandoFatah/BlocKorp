@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Dancing+Script&family=Lobster&family=Noto+Sans:wght@100&display=swap');
+
+// NAVBAR
+
+body {
+
+  background-color: white;
+  position: relative;
+  width: 100%;
+}
+
+
+.w-100 {
+  max-height: 500px;
+}
+
+.header {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 3% 30px 2%;
+}
+
+.logo {
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  position: relative;
+
+}
+
+.logoword {
+  width: 150px;
+  height: 25px;
+  object-fit: fill;
+  position: absolute;
+  left: 11%;
+  top: 70px;
+
+}
+
+.nav__links {
+
+  list-style: none;
+}
+
+.nav__links li {
+
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+
+  font-family: "Cabin", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: rgb(34, 34, 34);
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+
+  color: rgb(127, 127, 127);
+}
+
+// FOOTER
+
+#footer {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: -50px;
+  width: 100%;
+
+}
+
+
+
+.icons a {
+  font-size: 25px;
+  color: gray;
+  margin: 0px 10px 10px 10px;
+
+}
+
+#footer p {
+  margin-top: 6px;
+  padding-right: 5%;
+}

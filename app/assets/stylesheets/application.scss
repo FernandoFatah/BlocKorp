@@ -9,14 +9,12 @@
 @import "font-awesome";
 
 // Your CSS partials
-@import "components/index";
 @import "home/index";
+@import "components/index";
 @import "about/index";
 @import "contact/index";
-@import "blockchain/index";
 @import "partners/index";
+@import "blockchain/index";
 @import "services/index";
 @import "web3/index";
-
-
-
+@import "index"

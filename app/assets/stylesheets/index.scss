@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin&family=Dancing+Script&family=Lobster&family=Noto+Sans:wght@100&display=swap');
 
-// NAVBAR
-
-body {
-
-  background-color: white;
-  position: relative;
-  width: 100%;
+h1 {
+  font-family: 'Staatliches';
+  color: rgb(90, 89, 89);
 }
+html, body {
+  background-color: white;
+  padding-bottom: 25px;
+
+}
+
 
 
 .w-100 {
@@ -19,13 +21,14 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 3% 30px 2%;
+  padding: 10px 3% 30px 2%;
+
 }
 
 .logo {
   cursor: pointer;
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   position: relative;
 
 }
@@ -35,7 +38,7 @@ body {
   height: 25px;
   object-fit: fill;
   position: absolute;
-  left: 11%;
+  left: 12%;
   top: 70px;
 
 }
@@ -68,15 +71,23 @@ body {
 
 // FOOTER
 
+
 #footer {
+
+  background-color: white;
   display: flex;
   justify-content: center;
-  position: absolute;
-  bottom: -50px;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
   width: 100%;
+  height: 35px;
 
 }
 
+.icons a:hover {
+  color: rgb(212, 217, 250);
+}
 
 
 .icons a {
@@ -87,6 +98,7 @@ body {
 }
 
 #footer p {
-  margin-top: 6px;
+  margin-top: 13px;
+  margin-left: 5px;
   padding-right: 5%;
 }
